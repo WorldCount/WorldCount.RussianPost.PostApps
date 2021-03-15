@@ -11,7 +11,7 @@ namespace WorldCount.RussianPost.PostApps.Tracking.ViewModels
         #region Title : string - Заголовок окна
 
         /// <summary>Заголовок окна</summary>
-        private string _title = $"Трекинг";
+        private string _title = $"Трекинг {App.Version}";
 
         /// <summary>Заголовок окна</summary>
         public string Title

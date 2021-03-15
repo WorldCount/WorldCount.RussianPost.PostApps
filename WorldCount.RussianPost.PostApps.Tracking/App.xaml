@@ -8,7 +8,12 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Infrastructure/Commands/Commands.xaml"/>
-                <ResourceDictionary Source="Resources/Base/Brushes.xaml"/>
+
+                <ResourceDictionary Source="Resources/Styles/Base/Brushes.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/Windows/Base.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/Menu.xaml"/>
+
+                <ResourceDictionary Source="Resources/Icons/Icons.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <vm:ViewModelLocator x:Key="Locator"/>

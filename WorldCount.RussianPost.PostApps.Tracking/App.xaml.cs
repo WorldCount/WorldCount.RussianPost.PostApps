@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Linq;
+using System.Reflection;
 using System.Windows;
 using WorldCount.RussianPost.PostApps.Tracking.Services;
 using WorldCount.RussianPost.PostApps.Tracking.ViewModels;
@@ -21,6 +22,8 @@ namespace WorldCount.RussianPost.PostApps.Tracking
         public static IHost Host => _host ?? (_host = Program.CreateHostBuilder(Environment.GetCommandLineArgs())
                     .ConfigureAppConfiguration(cfg => cfg.AddJsonFile("app_settings.json", true, true))
                     .Build());
+
+        public static string Version => Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
         public static IServiceProvider Services => Host.Services;
 
