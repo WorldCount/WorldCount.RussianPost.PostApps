@@ -8,7 +8,7 @@
     <Style x:Key="DefaultWindowStyle" TargetType="{x:Type Window}">
         <Setter Property="FontFamily" Value="Segoe Ui"/>
         <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Foreground" Value="{StaticResource LightBlackBrush}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource Brush:LightBlackBrush}"></Setter>
     </Style>
 
 

@@ -6,16 +6,19 @@
         <ResourceDictionary Source="Colors.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
-    <SolidColorBrush x:Key="TransparentBrush" Color="{StaticResource Transparent}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="LightBlackBrush" Color="{StaticResource LightBlack}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:TransparentBrush" Color="{StaticResource Color:Transparent}" p:Freeze="true"/>
 
-    <SolidColorBrush x:Key="RedBrush" Color="{StaticResource Red}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="GreenBrush" Color="{StaticResource Green}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="BlueBrush" Color="{StaticResource Blue}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="GrayBrush" Color="{StaticResource Gray}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="OrangeBrush" Color="{StaticResource Orange}" p:Freeze="true"/>
-    <SolidColorBrush x:Key="DarkOrangeBrush" Color="{StaticResource DarkOrange}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:BlackBrush" Color="{StaticResource Color:Black}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:LightBlackBrush" Color="{StaticResource Color:LightBlack}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:GrayBrush" Color="{StaticResource Color:Gray}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:WhiteBrush" Color="{StaticResource Color:White}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:RedBrush" Color="{StaticResource Color:Red}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:GreenBrush" Color="{StaticResource Color:Green}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:BlueBrush" Color="{StaticResource Color:Blue}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:OrangeBrush" Color="{StaticResource Color:Orange}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:DarkOrangeBrush" Color="{StaticResource Color:DarkOrange}" p:Freeze="true"/>
 
 </ResourceDictionary>

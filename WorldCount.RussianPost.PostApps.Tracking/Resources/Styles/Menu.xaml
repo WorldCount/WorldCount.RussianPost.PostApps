@@ -2,23 +2,39 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="Base/Brushes.xaml"/>
+        <ResourceDictionary Source="MenuItem.xaml"/>
+        <ResourceDictionary Source="Base/MenuBrushes.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
-    <Style x:Key="GeneralMenuStyle" TargetType="{x:Type Menu}">
+    <Style x:Key="MenuStyle" TargetType="{x:Type Menu}">
+        <Setter Property="Height" Value="34"/>
+        <Setter Property="Width" Value="Auto"/>
+        <Setter Property="Background" Value="{StaticResource MenuBrush:BackgroundBrush}"/>
         <Setter Property="FontFamily" Value="Segoe Ui"/>
         <Setter Property="FontSize" Value="16"/>
-        <Setter Property="Foreground" Value="{StaticResource LightBlackBrush}"/>
-        <Setter Property="Height" Value="30"/>
-        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="FontStyle" Value="{DynamicResource {x:Static SystemFonts.MenuFontStyleKey}}"/>
+        <Setter Property="FontWeight" Value="{DynamicResource {x:Static SystemFonts.MenuFontWeightKey}}"/>
+        <Setter Property="Foreground" Value="{StaticResource MenuBrush:ForegroundBrush}"/>
+        <Setter Property="BorderThickness" Value="0 1 0 1"/>
+        <Setter Property="BorderBrush" Value="{StaticResource MenuBrush:ItemBorderBrush}"></Setter>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Menu}">
+                    <Border BorderBrush="{TemplateBinding BorderBrush}" 
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            Background="{TemplateBinding Background}" 
+                            Padding="{TemplateBinding Padding}" 
+                            SnapsToDevicePixels="true">
+
+                        <StackPanel ClipToBounds="True" Orientation="Horizontal" IsItemsHost="True"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
     </Style>
 
+    <Style TargetType="{x:Type Menu}" BasedOn="{StaticResource MenuStyle}"/>
 
-    <Style x:Key="GeneralMenuItemStyle" TargetType="{x:Type MenuItem}">
-        <Setter Property="Foreground" Value="{StaticResource BlackBrush}"/>
-    </Style>
-    
-    <Style TargetType="{x:Type Menu}" BasedOn="{StaticResource GeneralMenuStyle}"/>
-    <Style TargetType="{x:Type MenuItem}" BasedOn="{StaticResource GeneralMenuItemStyle}"/>
 </ResourceDictionary>

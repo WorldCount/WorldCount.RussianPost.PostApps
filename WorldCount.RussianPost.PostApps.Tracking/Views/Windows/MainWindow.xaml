@@ -12,7 +12,7 @@
     </Window.Resources>
 
     <DockPanel>
-        <Menu DockPanel.Dock="Top" IsMainMenu="True">
+        <Menu DockPanel.Dock="Top" IsMainMenu="True" BorderThickness="0 1 0 0">
             <Menu.ItemsPanel>
                 <ItemsPanelTemplate>
                     <DockPanel LastChildFill="False"/>
@@ -31,6 +31,7 @@
             <StatusBarItem Content="{Binding Status}"/>
         </StatusBar>
 
+        <StackPanel DockPanel.Dock="Top" Background="SeaGreen" Height="40"></StackPanel>
         <Grid>
 
         </Grid>
