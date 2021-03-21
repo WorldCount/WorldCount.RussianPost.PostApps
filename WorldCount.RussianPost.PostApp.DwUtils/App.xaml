@@ -4,11 +4,14 @@
              xmlns:local="clr-namespace:WorldCount.RussianPost.PostApp.DwUtils"
              xmlns:vm="clr-namespace:WorldCount.RussianPost.PostApp.DwUtils.ViewModels"
              StartupUri="Views/Windows/MainWindow.xaml">
+
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Infrastructure/Commands/Commands.xaml"/>
-                <ResourceDictionary Source="Resources/Base/Brushes.xaml"/>
+
+                <ResourceDictionary Source="pack://application:,,,/WorldCount.RussianPost.PostApp.Styles;component/Resources/Styles/Base/Brushes.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WorldCount.RussianPost.PostApp.Styles;component/Resources/Styles/Menu/Menu.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <vm:ViewModelLocator x:Key="Locator"/>
