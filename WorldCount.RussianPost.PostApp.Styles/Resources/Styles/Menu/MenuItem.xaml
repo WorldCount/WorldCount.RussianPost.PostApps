@@ -6,7 +6,7 @@
     </ResourceDictionary.MergedDictionaries>
 
     <ControlTemplate x:Key="MenuItemTemplate" TargetType="{x:Type MenuItem}">
-        <Border x:Name="templateRoot" BorderBrush="{StaticResource MenuBrush:ItemBorderBrush}" BorderThickness="0" 
+        <Border x:Name="templateRoot" BorderBrush="{StaticResource MenuBrush:ItemBorderBrush}" BorderThickness="0 0 1 0" 
                 Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
             <Grid VerticalAlignment="Center" Height="28" Margin="2">
                 <Grid.ColumnDefinitions>
