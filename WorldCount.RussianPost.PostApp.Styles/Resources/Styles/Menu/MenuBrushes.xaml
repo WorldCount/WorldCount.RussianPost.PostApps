@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:p="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="MenuColors.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="MenuBrush:ItemBorderBrush" Color="{StaticResource MenuColor:Border}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="MenuBrush:BorderBrush" Color="{StaticResource MenuColor:Border}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:ForegroundBrush" Color="{StaticResource MenuColor:Foreground}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:BackgroundBrush" Color="{StaticResource MenuColor:Background}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="MenuBrush:HighBorderBrush" Color="{StaticResource MenuColor:HighBorder}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:HighBackgroundBrush" Color="{StaticResource MenuColor:HighBackground}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:HighForegroundBrush" Color="{StaticResource MenuColor:HighForeground}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="MenuBrush:DisableForegroundBrush" Color="{StaticResource MenuColor:DisableForeground}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:DisableFillBrush" Color="{StaticResource MenuColor:DisableFill}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="MenuBrush:FillBrush" Color="{StaticResource MenuColor:Fill}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:SubMenuBrush" Color="{StaticResource MenuColor:SubMenuFill}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="MenuBrush:SubMenuBorderBrush" Color="{StaticResource MenuColor:SubMenuBorder}" p:Freeze="true"/>
+    
+</ResourceDictionary>

@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="MenuColor:ItemBorder">#cccccc</Color>
+
+    <Color x:Key="MenuColor:Background">#f0f0f0</Color>
+    <Color x:Key="MenuColor:Foreground">#262626</Color>
+    <Color x:Key="MenuColor:Border">#bebebe</Color>
+
+    <Color x:Key="MenuColor:HighBorder">#272b30</Color>
+    <Color x:Key="MenuColor:HighBackground">#272b30</Color>
+    <Color x:Key="MenuColor:HighForeground">#f0f0f0</Color>
+
+    <Color x:Key="MenuColor:DisableForeground">#FF707070</Color>
+    <Color x:Key="MenuColor:DisableFill">#FF707070</Color>
+
+    <Color x:Key="MenuColor:Fill">#f0f0f0</Color>
+    <Color x:Key="MenuColor:SubMenuFill">#bebebe</Color>
+    <Color x:Key="MenuColor:SubMenuBorder">#bebebe</Color>
+
+</ResourceDictionary>

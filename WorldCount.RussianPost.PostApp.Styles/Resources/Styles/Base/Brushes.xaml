@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:p="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="Brush:TransparentBrush" Color="{StaticResource Color:Transparent}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:BlackBrush" Color="{StaticResource Color:Black}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:LightBlackBrush" Color="{StaticResource Color:LightBlack}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:GrayBrush" Color="{StaticResource Color:Gray}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:WhiteBrush" Color="{StaticResource Color:White}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:RedBrush" Color="{StaticResource Color:Red}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:GreenBrush" Color="{StaticResource Color:Green}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:BlueBrush" Color="{StaticResource Color:Blue}" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="Brush:OrangeBrush" Color="{StaticResource Color:Orange}" p:Freeze="true"/>
+    <SolidColorBrush x:Key="Brush:DarkOrangeBrush" Color="{StaticResource Color:DarkOrange}" p:Freeze="true"/>
+
+</ResourceDictionary>

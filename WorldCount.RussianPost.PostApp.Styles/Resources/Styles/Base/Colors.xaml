@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="Color:Transparent">Transparent</Color>
+
+    <Color x:Key="Color:Black">#1d1d1d</Color>
+    <Color x:Key="Color:LightBlack">#2d2d30</Color>
+    <Color x:Key="Color:Gray">DimGray</Color>
+
+    <Color x:Key="Color:White">#ffffff</Color>
+
+    <Color x:Key="Color:Red">Firebrick</Color>
+    <Color x:Key="Color:Green">SeaGreen</Color>
+    <Color x:Key="Color:Blue">SteelBlue</Color>
+
+    <Color x:Key="Color:Orange">Orange</Color>
+    <Color x:Key="Color:DarkOrange">DarkOrange</Color>
+
+</ResourceDictionary>
