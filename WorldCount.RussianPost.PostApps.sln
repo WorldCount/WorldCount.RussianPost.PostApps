@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStyleApp", "TestsApp\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldCount.RussianPost.PostApp.DwUtils", "WorldCount.RussianPost.PostApp.DwUtils\WorldCount.RussianPost.PostApp.DwUtils.csproj", "{2945AB7D-4019-4427-B9CE-A179A29229A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldCount.RussianPost.PostApp.Styles", "WorldCount.RussianPost.PostApp.Styles\WorldCount.RussianPost.PostApp.Styles.csproj", "{2218C3DF-1374-4858-B470-34A4B93626FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldCount.RussianPost.PostApp.Styles", "WorldCount.RussianPost.PostApp.Styles\WorldCount.RussianPost.PostApp.Styles.csproj", "{A2DFB042-5D16-4D99-AF75-B7D1C712B744}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,10 @@ Global
 		{2945AB7D-4019-4427-B9CE-A179A29229A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2945AB7D-4019-4427-B9CE-A179A29229A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2945AB7D-4019-4427-B9CE-A179A29229A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2218C3DF-1374-4858-B470-34A4B93626FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2218C3DF-1374-4858-B470-34A4B93626FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2218C3DF-1374-4858-B470-34A4B93626FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2218C3DF-1374-4858-B470-34A4B93626FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DFB042-5D16-4D99-AF75-B7D1C712B744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DFB042-5D16-4D99-AF75-B7D1C712B744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DFB042-5D16-4D99-AF75-B7D1C712B744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DFB042-5D16-4D99-AF75-B7D1C712B744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
