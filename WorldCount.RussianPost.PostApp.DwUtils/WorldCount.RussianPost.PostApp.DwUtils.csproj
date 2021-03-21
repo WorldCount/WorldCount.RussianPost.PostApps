@@ -270,6 +270,12 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WorldCount.RussianPost.PostApp.Styles\WorldCount.RussianPost.PostApp.Styles.csproj">
+      <Project>{a2dfb042-5d16-4d99-af75-b7d1c712b744}</Project>
+      <Name>WorldCount.RussianPost.PostApp.Styles</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
