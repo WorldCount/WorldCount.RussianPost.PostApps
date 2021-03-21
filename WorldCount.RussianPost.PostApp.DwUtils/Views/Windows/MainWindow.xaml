@@ -6,10 +6,10 @@
         xmlns:l="clr-namespace:WorldCount.RussianPost.PostApp.DwUtils"
         DataContext="{Binding MainWindowModel, Source={StaticResource Locator}}"
         WindowStartupLocation="CenterScreen"
-        Title="{Binding Title}" Height="450" Width="800">
-
+        Background="WhiteSmoke"
+        Title="{Binding Title}" Height="450" Width="800" Icon="/WorldCount.RussianPost.PostApp.DwUtils;component/Resources/Icons/App.png">
     <DockPanel>
-        <Menu DockPanel.Dock="Top" IsMainMenu="True">
+        <Menu DockPanel.Dock="Top" IsMainMenu="True" BorderThickness="0 1 0 0">
             <Menu.ItemsPanel>
                 <ItemsPanelTemplate>
                     <DockPanel LastChildFill="False"/>
@@ -21,6 +21,8 @@
             </MenuItem>
         </Menu>
 
+        <StackPanel DockPanel.Dock="Top" Height="40" Background="#434A54"></StackPanel>
+
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem DockPanel.Dock="Right">
                 <ResizeGrip/>
@@ -28,9 +30,14 @@
             <StatusBarItem Content="{Binding Status}"/>
         </StatusBar>
 
-        <Grid>
+        <TabControl>
+            <TabItem Header="Поступление">
 
-        </Grid>
+            </TabItem>
+
+            <TabItem Header="Подключенные пользователи"></TabItem>
+
+        </TabControl>
 
     </DockPanel>
 
