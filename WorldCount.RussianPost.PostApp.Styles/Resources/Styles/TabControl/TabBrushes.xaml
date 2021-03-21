@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:p="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <SolidColorBrush x:Key="TabBrush:TabItemBrush" Color="#656D78" p:Freeze="true"/>
+    <SolidColorBrush x:Key="TabBrush:TabItemBorderBrush" Color="#656D78" p:Freeze="true"/>
+    <SolidColorBrush x:Key="TabBrush:TabItemForegroundBrush" Color="#CCD1D9" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="TabBrush:TabItemSelectBrush" Color="#F5F7FA" p:Freeze="true"/>
+    <SolidColorBrush x:Key="TabBrush:TabItemSelectBorderBrush" Color="#F5F7FA" p:Freeze="true"/>
+    <SolidColorBrush x:Key="TabBrush:TabItemSelectForegroundBrush" Color="#434A54" p:Freeze="true"/>
+
+    <SolidColorBrush x:Key="TabBrush:TabControlBackgroundBrush" Color="#F5F7FA" p:Freeze="true"/>
+
+</ResourceDictionary>

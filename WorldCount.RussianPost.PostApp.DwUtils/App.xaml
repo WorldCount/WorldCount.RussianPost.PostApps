@@ -15,8 +15,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Infrastructure/Commands/Commands.xaml"/>
 
-                <ResourceDictionary Source="pack://application:,,,/WorldCount.RussianPost.PostApp.Styles;component/Resources/Styles/Base/Brushes.xaml"/>
-                <ResourceDictionary Source="pack://application:,,,/WorldCount.RussianPost.PostApp.Styles;component/Resources/Styles/Menu/Menu.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WorldCount.RussianPost.PostApp.Styles;component/SimpleTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
