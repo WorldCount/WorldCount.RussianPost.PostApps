@@ -16,12 +16,10 @@
                 </ItemsPanelTemplate>
             </Menu.ItemsPanel>
 
-            <MenuItem Header="Файл">
-                <MenuItem Header="Выход" Command="{StaticResource CloseWindowCommand}"/>
+            <MenuItem Header="Файл" Icon="{StaticResource Icon:File}">
+                <MenuItem Header="Выход" Command="{StaticResource CloseWindowCommand}" Icon="{StaticResource Icon:Close}"/>
             </MenuItem>
         </Menu>
-
-        <StackPanel DockPanel.Dock="Top" Height="40" Background="#434A54"></StackPanel>
 
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem DockPanel.Dock="Right">
@@ -32,10 +30,25 @@
 
         <TabControl>
             <TabItem Header="Поступление">
-
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Top" Height="40" Background="#AAB2BD"></StackPanel>
+                    <Grid></Grid>
+                </DockPanel>
             </TabItem>
 
-            <TabItem Header="Подключенные пользователи"></TabItem>
+            <TabItem Header="Накладные">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Top" Height="40" Background="#AAB2BD"></StackPanel>
+                    <Grid></Grid>
+                </DockPanel>
+            </TabItem>
+
+            <TabItem Header="Подключенные пользователи">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Top" Height="40" Background="#AAB2BD"></StackPanel>
+                    <Grid></Grid>
+                </DockPanel>
+            </TabItem>
 
         </TabControl>
 

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:p="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <Image x:Key="Icon:Close" Source="IconClose.png" x:Shared="false" p:Freeze="true"/>
+    <Image x:Key="Icon:File" Source="IconFile.png" x:Shared="false" p:Freeze="true"/>
+    
+</ResourceDictionary>
